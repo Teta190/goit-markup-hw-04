@@ -187,8 +187,8 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
   margin-bottom: 8px;
 }
 .our-str-icon {
-  width: 64;
-  height: 64;
+  width: 64px;
+  height: 64px;
   flex-shrink: 0;
 }
 .main-section {
@@ -325,11 +325,11 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 .social-links {
   display: flex;
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
   justify-content: center;
   align-items: center;
-  background-color:  #4d5ae5;
+  background-color: var(--IRIS, #4d5ae5);
 }
 .social-links-item: {
   background-color: var(--IRIS, #4d5ae5);
@@ -338,10 +338,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 .social-links:hover,
 .social-links:focus {
- background-color: #404bbf;
+  background: var(--GREEN, #31d0aa);
 }
 .our-members-icon {
-  fill:  #f4f4fd;
   width: 16px;
   height: 16px;
   flex-shrink: 0;
